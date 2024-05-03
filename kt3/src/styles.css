@@ -1,0 +1,39 @@
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  header,
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fa-star {
+    color: gray;
+  }
+  
+  .fa-star.active {
+    color: orange;
+  }
+  
